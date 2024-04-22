@@ -51,6 +51,9 @@ ul{
     display: inline-block;
     width: 30%;
 }
+.box{
+    vertical-align: 150%;
+}
 
 .row:nth-child(even){
     background-color:rgb(177, 229, 242);
