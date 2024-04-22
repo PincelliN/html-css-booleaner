@@ -32,8 +32,22 @@
     font-size:smaller;
     margin-top: 0;
 }
-ul::marker{
-    content: normal;
+ul{
+    padding: 20px;
+}
+/*  tabella */
+.tabel span{
+    display: inline-block;
+    width: 30%;
+}
+.tabel{
+    background-color: rgb(76, 129, 209);
+}
+.row span{
+    display: inline-block;
+    width: 30%;
+}
 
-
+.row:nth-child(even){
+    background-color: rgb(125, 201, 201);
 }
