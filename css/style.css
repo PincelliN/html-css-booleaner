@@ -1,0 +1,30 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.title-box{
+     background-color: aqua;
+     background-image: url(img/tim-1.jpg)
+}
+.title-box img{
+    width: 180px;
+}
+/* autore */
+.autore{
+    color: rgb(85, 81, 81);
+}
+.autore span{
+    color: aqua;
+}
+.autore p {
+    font-size: xx-small;
+}
+/* immagini */
+.introduction img{
+    height: 250px;
+}
+.introduction .description{
+    font-size:smaller;
+}
