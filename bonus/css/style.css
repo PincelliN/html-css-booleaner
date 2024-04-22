@@ -1,0 +1,91 @@
+
+.god{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* header */
+.introduction h1{
+    margin: 0;
+
+}
+.title-box{
+     background-color:rgb(78, 160, 255);
+     background-image: url(../img/pattern.png);
+     background-size:13%;
+     background-position: top;
+     padding-left: 5%;
+    }                 
+.title-box img{
+    width: 180px;
+    margin-bottom: 0;
+}
+/* autore */
+.autore{
+    color: rgb(90, 88, 88);
+    margin-top: 0;
+}
+.autore span{
+    color:rgb(71, 184, 234);
+}
+.autore p {
+    font-size: xx-small;
+    margin-top: 0;
+}
+/* immagini */
+.introduction .head-box{
+    width: 40%;
+    height: 300px;
+    display: inline-block;
+}
+#conference{
+    background-image: url(../img/tim-1.jpg);
+}
+#church{
+    background-image: url(../img/tim-2.jpg);
+}
+.introduction .description{
+    font-size:smaller;
+    margin-top: 0;
+}
+ul{
+    padding: 20px;
+}
+/*  tabella */
+.tabel span{
+    display: inline-block;
+    width: 30%;
+}
+.tabel{
+    background-color:rgb(32, 169, 229);
+    color: white;
+}
+.row span{
+    display: inline-block;
+    width: 30%;
+}
+.box{
+    vertical-align: 150%;
+}
+
+.row:nth-child(even){
+    background-color:rgb(177, 229, 242);
+}
+/* Footer */
+.title-end{
+    color: rgb(90, 88, 88);
+}
+.box-end{
+    width: 200px;
+    height: 200px;
+    color: white;
+    margin-bottom: 10px;
+}
+#first-box{
+    background: url(../img/monitor.jpg);
+    
+}
+#second-box{
+    background-image: url(../img/graph.jpg);
+}
